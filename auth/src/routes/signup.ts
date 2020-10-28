@@ -27,9 +27,8 @@ router.post(
       throw new RequestValidationError(errors.array());
     }
 
+    console.log('Creating a user...');
     throw new DatabaseConnectionError();
-
-    const { email, password } = req.body;
 
     res.send({});
   }
