@@ -16,7 +16,7 @@ spec:
         - name: auth
           image: njaalwiik/auth
           env:
-            - name: jwt
+            - name: JWT_KEY
               valueFrom:
                 secretKeyRef:
                   name: jwt-secret
