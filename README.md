@@ -13,3 +13,8 @@ How to run kubernetes app:
    skaffold dev
 6. In chrome go to:
    ticketing.dev
+
+
+Tools:
+cookie-session
+JWT
